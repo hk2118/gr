@@ -1,0 +1,35 @@
+
+
+.flexrow1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #F3FEB8;
+    padding: 20px;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+.card{
+    min-width:400px;
+}
+.blogfooter i{
+    font-size: 20px;
+    border: 1px solid red;
+    padding: 20px;
+    border-radius: 100%;
+    margin: 10px;
+    
+
+}
+
+.blogfooter i:hover{
+    color:white;
+    background-color: red;
+    cursor: pointer;
+}
+.blogfooter{
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,14 @@
+ul li{
+    padding:6px;
+    
+
+}
+ ul a{
+    text-decoration: none;
+}
+.flex_learn{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+}

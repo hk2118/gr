@@ -1,0 +1,129 @@
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+.flexhome{
+    display: flex;
+    padding: 20px;
+}
+h1{
+    color:red;
+}
+.flexhomeh{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-color:gray;
+}
+.column3{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left:5%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.column31,.column32,.column33{
+    width:30%;
+    
+    min-width:300px;
+}
+
+.column31:hover,.column32:hover,.column33:hover{
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border-radius: 2%;
+}
+.course{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+
+}
+.course1{
+    width: 70%;
+    margin-right: 10%;
+}
+.course2{
+    width: 30%;
+}
+.course_category{
+    margin-left: 7%;
+    width:70%;
+}
+.category{
+    display: flex;
+    text-align: center;
+    margin-left: 7%;
+    flex-wrap: wrap;
+}
+.category1,.category2,.category3,.category4{
+    width:20%;
+    background-color:black;
+    min-width: 200px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2%;
+}
+.courseflex{
+    display: flex;
+    margin-right: 30px;
+    flex-wrap:wrap;
+    min-width:300px;
+    margin-left: 7%;
+    justify-content: space-around  ;
+    
+
+}
+.card{
+    position:static
+}
+.flexabout{
+    margin-left: 7%;
+}
+.flexslide{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.flexfooter div ul li{
+    list-style-type: none;
+}
+.flexfooter div ul li a{
+    text-decoration: none;
+    color:white;
+}
+.flexfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:90%;
+    margin-left: 7%;
+    background-color: gray;
+    color:white;
+    border-radius: 20px;
+    
+}
+.footer1,.footer2,.footer3{
+    width:30%;
+    padding:40px;
+    min-width:300px;
+}
+.footer1
+p{
+    width:70%
+}
+.footer2 h4,.footer3 h4{
+    margin-left: 30px;
+}
+.courseflex6,.courseflex5,.courseflex4,.courseflex3,.courseflex2,.courseflex1{
+    min-width: 300px;
+}
